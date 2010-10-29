@@ -1,0 +1,4 @@
+category: Ruby
+requires: file ruby
+sdesc: "Ruby libmagic bindings"
+ldesc: "A simple Ruby interface to libmagic."

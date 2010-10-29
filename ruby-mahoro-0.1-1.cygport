@@ -1,0 +1,11 @@
+ORIG_PN="mahoro"
+inherit ruby
+
+DESCRIPTION="Ruby libmagic bindings"
+HOMEPAGE="http://mahoro.rubyforge.org/"
+SRC_URI="mirror://rubyforge/mahoro/mahoro-${PV}.tar.bz2"
+
+src_test() {
+	cd ${S}
+	RUBYLIB=${B} ${RUBY} test.rb || true
+}
