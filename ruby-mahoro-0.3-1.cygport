@@ -1,0 +1,6 @@
+inherit rubygem
+
+SUMMARY="Ruby libmagic bindings"
+DESCRIPTION="An interface to libmagic to determine file types using magic
+numbers. This can be used in place of calling the file(1) command in Ruby
+scripts."
